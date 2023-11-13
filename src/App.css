@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.main {
+  margin-top: 100px;
+  border-radius: 15px;
+  width: 335px;
+  height: 100%;
+  padding: 40px 0px 25px 35px;
+  background-color: hsl(216, 50%, 16%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sizing {
+  width: 100%;
+  height: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.eye {
+  position: relative;
+  top: -175px;
+  left: 125px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.vieweye {
+  display: none;
 }
 
-.App-link {
-  color: #61dafb;
+.finalHover:hover .vieweye {
+  /* !!! anu finalhover ari parent vutitebt child eyes da achens */
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.finalHover:hover {
+  opacity: 0.65;
+}
+
+.imageColor {
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 5px;
+}
+
+.hoverMe:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.hoverMe {
+  font-size: 24px;
+  color: hsl(0, 0%, 100%);
+  width: 200px;
+}
+
+.hoverMe2:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.hoverMe2 {
+  color: hsl(0, 0%, 100%);
 }
