@@ -1,10 +1,4 @@
 const styles = {
-  size: {
-    display:"flex",
-    justifyContent:"center",
-    alignItems:"center",
-    flexDirection:"column",
-  },
   mainContainer: {
     padding:"15px 35px 0px 0px",
   },

@@ -1,8 +1,10 @@
 .main {
-  margin-top: 100px;
+  display:Flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   border-radius: 15px;
   width: 335px;
-  height: 100%;
   padding: 40px 0px 25px 35px;
   background-color: hsl(216, 50%, 16%);
 }

@@ -9,7 +9,7 @@ import styles from "./style-images/styles";
 
 function App() {
   return (
-   <main style={{...styles.size}} >
+   <main>
    <div className="main">
     <div className="sizing">
      <div className="finalHover">
